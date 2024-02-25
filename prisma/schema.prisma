@@ -14,6 +14,7 @@ model Article {
   title     String    @db.VarChar(255)
   content   String?
   author    String    @db.VarChar(255)
+  image     String    @db.VarChar(255)
   comments  Comment[]
 }
 
